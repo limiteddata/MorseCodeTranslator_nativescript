@@ -1,0 +1,15 @@
+TextView {
+    width:90%;
+    height:100;
+  }
+
+  .title{
+    margin: 10;
+    font-weight: bold;
+    font-size:14;
+  }
+
+  Button{
+    background-color:rgb(26, 132, 219);
+    color: white;
+  }

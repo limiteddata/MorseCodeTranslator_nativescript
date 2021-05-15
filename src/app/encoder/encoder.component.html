@@ -1,0 +1,27 @@
+<ActionBar>
+  <Label text="Morse Encoder"></Label>
+</ActionBar>
+
+<StackLayout>
+  <Label class="title" text="Plain text:"></Label>
+  <TextView
+  hint="Your message..."
+  backgroundColor="transparent"
+  secure="false"
+  returnKeyType="send"
+  autocorrect="false"
+  (textChange)="translateText($event)">
+  </TextView>
+
+  <Label class="title" text="Translated text:"></Label>
+
+  <TextView
+  [text]="translatedText"
+  editable="false"
+  android:loaded="makeSelectable">
+  </TextView>
+
+  <Button text="Copy to clipboard" (tap)="copyToClipboard()" ></Button>
+
+  <Button text="Play morse code" (tap)="playMorseCode()" ></Button>
+<StackLayout>
