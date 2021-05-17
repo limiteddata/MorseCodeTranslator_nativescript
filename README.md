@@ -4,3 +4,6 @@ This is a morse code encoder/decoder app for android and ios made in nativescrip
 It can play the morse code using the flashlight and speakers of your phone.
 
 That's it... just a simple app in nativescript. :)
+
+<img src="./encoder.png" width=300 />
+<img src="./decoder.png" width=300 />
